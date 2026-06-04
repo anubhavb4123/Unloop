@@ -10,7 +10,7 @@ import { ActionSelector } from '@/components/analysis/ActionSelector'
 import { ClosureScreen } from '@/components/analysis/ClosureScreen'
 
 const TOTAL_STEPS = 6
-
+// This page guides users through a structured reflection process after breaking a loop, helping them analyze their thoughts, triggers, and actions to build self-awareness and prevent future loops.
 export default function LoopAnalysis() {
   const { analysis, setStep, startSession, resetAnalysis } = useUnloopStore()
 
