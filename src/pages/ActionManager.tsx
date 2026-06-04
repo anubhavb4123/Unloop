@@ -17,7 +17,7 @@ const typeOptions: { id: ActionType; label: string }[] = [
   { id: 'video', label: '🎥 Video' },
   { id: 'real-world', label: '📱 Real-world' },
 ]
-
+// For simplicity, we allow any link for non-real-world types. In a real app, you'd want to validate this better.
 export default function ActionManager() {
   const { personalActions, addAction, updateAction, deleteAction } = useUnloopStore()
   const [activeCategory, setActiveCategory] = useState<ActionCategory>('calm')
