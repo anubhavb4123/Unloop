@@ -8,7 +8,7 @@ const nextSteps = [
   { icon: '📴', text: 'Stay offline for a few minutes' },
   { icon: '🚶', text: 'Take a short walk' },
 ]
-
+// After completing an instant relief exercise, this page provides a calming transition with next steps to help users reintegrate into their day while maintaining the calm mindset they've achieved.
 export default function PostRelief() {
   const navigate = useNavigate()
 
