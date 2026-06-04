@@ -45,7 +45,7 @@ export default function InstantRelief() {
     return () => clearInterval(interval)
   }, [])
 
-  // Breathing cycle with haptic sync
+  // Breathing cycle with haptic cues
   useEffect(() => {
     if (exercise !== 'breathing') return
     const cycle = () => {
