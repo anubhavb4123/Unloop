@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-4 pb-20 md:pb-0 md:pt-12 relative overflow-hidden">
-      {/* Background particles */}
+      {/* */}
       <div className="absolute inset-0 pointer-events-none">
         {[...Array(6)].map((_, i) => (
           <motion.div
