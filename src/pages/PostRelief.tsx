@@ -34,7 +34,7 @@ export default function PostRelief() {
           />
         </motion.div>
 
-        {/* Message */}
+        {/* Message  */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
